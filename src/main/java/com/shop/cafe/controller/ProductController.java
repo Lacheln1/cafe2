@@ -11,7 +11,7 @@ import com.shop.cafe.dto.Product;
 import com.shop.cafe.service.ProductService;
 
 @RestController
-@CrossOrigin("http://localhost:5500/")
+@CrossOrigin("http://127.0.0.1:5500")
 public class ProductController {
 	
 	@Autowired //DI : DI뜻은 쉽게 말해서 그냥 new임 
